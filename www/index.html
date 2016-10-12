@@ -36,12 +36,43 @@
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+        <h1 class="title">Hello</h1>
       </ion-header-bar>
-      <ion-content>
+	  <ion-content>
+		<h2> Simple list</h2>
+		<div class="list">
+	  	<div class="item">
+		
+		item 1
+		</div>
+			<div class="item">
+		
+		item 2
+		</div>
+		</div>
+	  
+	<h2> Ion list</h2>
+		<ion-list>
+	  	<ion-item>
+		<icon cube item-left> 1 </icon>
+		item 1
+		</ion-item>
+		<ion-item>
+
+		<icon cube item-left> 2 </icon>
+		item 2
+		</ion-item>
+		</ion-list>
 		<ion-spinner class="spinner-energized" paused="true" duration="10" color="primary"></ion-spinner> 
 				<ion-spinner class="spinner-energized" paused="true" duration="20" color="secondary"></ion-spinner> 
 		<ion-spinner icon="spiral" paused="false" duration="30" color="danger"></ion-spinner>
+		<button color="secondary">button</button>
+		<ion-navbar color="secondary"> nav bar </ion-navbar>
+		<ion-navbar color="secondary">
+		<ion-buttons end>
+			<button ion-button color="primary">I'm a primary coloured button in the end position of the nav bar</button>
+		</ion-buttons>
+		</ion-navbar>
       </ion-content>
     </ion-pane>
   </body>
