@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+   
+    <!--<script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.0-rc.0/angular.js" data-semver="1.4.0-rc.0"></script>-->
+	<script src="../lib/ionic/js/ionic.bundle.js"></script>
+    <script src="chart.js"></script>
+    <script src="angularchart.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    
+    <div>
+      <div 
+        ng-click="showGraph(false)">
+          List
+      </div>
+      <div 
+        ng-click="showGraph(true)">
+          Graph (click me)
+      </div>
+    </div>
+    
+    <h1 ng-hide="graph.visible">a list of data is here in my app</h1>
+    
+
+      <canvas 
+        class="chart chart-line"
+        data="graph.data"
+        labels="graph.labels"
+        series="graph.series" height="10%" width="10%"
+        >
+      </canvas>   
+
+    
+    
+  </body>
+
+</html>

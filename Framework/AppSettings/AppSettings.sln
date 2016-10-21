@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{2931DF61-4C92-41A3-B65E-5E790C1394C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{6ED0D68B-43F5-41AA-B985-D46D74A41693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCodes", "AppErrorCodes\AppCodes.csproj", "{38231421-52DF-4172-8577-895CEE7BF741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2931DF61-4C92-41A3-B65E-5E790C1394C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2931DF61-4C92-41A3-B65E-5E790C1394C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2931DF61-4C92-41A3-B65E-5E790C1394C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED0D68B-43F5-41AA-B985-D46D74A41693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED0D68B-43F5-41AA-B985-D46D74A41693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED0D68B-43F5-41AA-B985-D46D74A41693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED0D68B-43F5-41AA-B985-D46D74A41693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38231421-52DF-4172-8577-895CEE7BF741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38231421-52DF-4172-8577-895CEE7BF741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38231421-52DF-4172-8577-895CEE7BF741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38231421-52DF-4172-8577-895CEE7BF741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+<ion-view view-title="Home Page" cache-view="false">
+
+  <ion-content has-header="true" padding="true">
+
+    <div class="button-bar">
+      <a class="button" ng-click="updateProgressbar()">progress</a>
+    </div>
+        
+    <progress id="progressbar" max="100" value="{{ progressval }}"> </progress>
+    <div id="progressbarlabel">{{ progressval }} %</div>
+
+  </ion-content>
+  
+</ion-view>

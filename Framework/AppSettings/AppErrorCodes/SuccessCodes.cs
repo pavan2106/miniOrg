@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auth
+namespace AppErrorCodes
 {
-    public class Class1
-    {
-    }
+  public class SuccessCodes
+  {
+  }
 }
