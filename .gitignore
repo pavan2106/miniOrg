@@ -8,3 +8,4 @@ Debug
 *.suo
 packages
 bin
+vendor
